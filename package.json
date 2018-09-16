@@ -1,0 +1,37 @@
+{
+  "name": "position-observer",
+  "version": "0.0.1",
+  "description": "To observe position changes of the element",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeetCode-OpenSource/position-observer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeetCode-OpenSource/position-observer/issues"
+  },
+  "homepage": "https://github.com/LeetCode-OpenSource/position-observer#readme",
+  "keywords": [
+    "position",
+    "observe",
+    "observe position",
+    "element position"
+  ],
+  "author": "LeetCode front-end team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/element-resize-detector": "^1.1.0",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-sonarts": "^1.8.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "element-resize-detector": "^1.1.14"
+  }
+}
