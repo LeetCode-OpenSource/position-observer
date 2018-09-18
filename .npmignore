@@ -1,5 +1,7 @@
 .idea
 .cache
 *.tgz
+tsconfig.json
+tslint.json
 node_modules
-dist
+/demo
